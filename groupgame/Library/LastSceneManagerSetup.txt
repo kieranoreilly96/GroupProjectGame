@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/KieransScene.unity
+- path: Assets/Scenes/level_4_KieransScene.unity
   isLoaded: 1
   isActive: 1
