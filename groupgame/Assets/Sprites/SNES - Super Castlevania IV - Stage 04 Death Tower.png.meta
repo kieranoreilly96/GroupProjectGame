@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 5a7bfdb9fb48080448c2be3c4ada6572
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SNES - Super Castlevania IV - Stage 04 Death Tower_0
+    21300002: SNES - Super Castlevania IV - Stage 04 Death Tower_1
+    21300004: SNES - Super Castlevania IV - Stage 04 Death Tower_2
+    21300006: SNES - Super Castlevania IV - Stage 04 Death Tower_3
+    21300008: SNES - Super Castlevania IV - Stage 04 Death Tower_4
+    21300010: SNES - Super Castlevania IV - Stage 04 Death Tower_5
+    21300012: SNES - Super Castlevania IV - Stage 04 Death Tower_6
+    21300014: SNES - Super Castlevania IV - Stage 04 Death Tower_7
+    21300016: SNES - Super Castlevania IV - Stage 04 Death Tower_8
+    21300018: SNES - Super Castlevania IV - Stage 04 Death Tower_9
+    21300020: SNES - Super Castlevania IV - Stage 04 Death Tower_10
+    21300022: SNES - Super Castlevania IV - Stage 04 Death Tower_11
+    21300024: SNES - Super Castlevania IV - Stage 04 Death Tower_12
+    21300026: SNES - Super Castlevania IV - Stage 04 Death Tower_13
+    21300028: SNES - Super Castlevania IV - Stage 04 Death Tower_14
+    21300030: SNES - Super Castlevania IV - Stage 04 Death Tower_15
+    21300032: SNES - Super Castlevania IV - Stage 04 Death Tower_16
+    21300034: SNES - Super Castlevania IV - Stage 04 Death Tower_17
+    21300036: SNES - Super Castlevania IV - Stage 04 Death Tower_18
+    21300038: SNES - Super Castlevania IV - Stage 04 Death Tower_19
+    21300040: SNES - Super Castlevania IV - Stage 04 Death Tower_20
+    21300042: SNES - Super Castlevania IV - Stage 04 Death Tower_21
+    21300044: SNES - Super Castlevania IV - Stage 04 Death Tower_22
+    21300046: SNES - Super Castlevania IV - Stage 04 Death Tower_23
+    21300048: SNES - Super Castlevania IV - Stage 04 Death Tower_24
+    21300050: SNES - Super Castlevania IV - Stage 04 Death Tower_25
+    21300052: SNES - Super Castlevania IV - Stage 04 Death Tower_26
+    21300054: SNES - Super Castlevania IV - Stage 04 Death Tower_27
+    21300056: SNES - Super Castlevania IV - Stage 04 Death Tower_28
+    21300058: SNES - Super Castlevania IV - Stage 04 Death Tower_29
+    21300060: SNES - Super Castlevania IV - Stage 04 Death Tower_30
+    21300062: SNES - Super Castlevania IV - Stage 04 Death Tower_31
+    21300064: SNES - Super Castlevania IV - Stage 04 Death Tower_32
+    21300066: SNES - Super Castlevania IV - Stage 04 Death Tower_33
+    21300068: SNES - Super Castlevania IV - Stage 04 Death Tower_34
+    21300070: SNES - Super Castlevania IV - Stage 04 Death Tower_35
+    21300072: SNES - Super Castlevania IV - Stage 04 Death Tower_36
+    21300074: SNES - Super Castlevania IV - Stage 04 Death Tower_37
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_0
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1826
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbf2b4d50c30e242b1faab536d08057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_1
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1602
+        width: 166
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b44e923375ae4e4783dcf977e59f3fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_2
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1730
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c85ffce115c1b14b8fa6362e12fbc04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_3
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1762
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9101c2cdaab01744845a7876260141e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_4
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1666
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d86f0889032e741b5a209a23db1aa6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_5
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 1634
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d083248ec5b7f564d848157b7efbb9f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_6
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1602
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdea182a013fbfc4f8a0ae1422fc0552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_7
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1634
+        width: 133
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d106173306b7034468d8cef7f100f15a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_8
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1506
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72bda19f793bd641b4a1573c2e85e4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_9
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1347
+        width: 166
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b135413cc5d8c4d9500051d0b4a2f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_10
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1474
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d5c25fd45795d4984afaa2f44d1550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_11
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 1538
+        width: 101
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b02a04c0ebf13b41bc5a923a6e98852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_12
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 1411
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fd0d399c5492144be579f5f3ee8f00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_13
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1442
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc685a4754ec17e43804562db406e988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_14
+      rect:
+        serializedVersion: 2
+        x: 2937
+        y: 1344
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61940c786f4427408b4e4bcbc66b483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_15
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1315
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f44addd60bfc647a6a1a0d349b9900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_16
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1347
+        width: 101
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a0774d99a45724a8aabc02b03a944d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_17
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 1347
+        width: 101
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19f6983e6d2c274eb566794af602a12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_18
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 1091
+        width: 166
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1d0f5dd58bfb843bb26d31ed28ddbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_19
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1219
+        width: 101
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893dcd316d3a91f42a4558d686e36fb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_20
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1251
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5944f95466260404ea1c6bee986db47c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_21
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 1155
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1ca66ab72ac054391b9f7ab682b3e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_22
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 1123
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aae9e1c68f04af4d83f727b84c87e0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_23
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 1091
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32a10cb7d3646f4283d8e3c3c8ca97d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_24
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 1123
+        width: 133
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e243c956db52a1f4ea80df6d85d69222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_25
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 995
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb32b9e4f7b0774d9aa39b1ef78b7e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_26
+      rect:
+        serializedVersion: 2
+        x: 3271
+        y: 835
+        width: 166
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bb756b324599c458d3151671b8d2dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_27
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 963
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1018e456d0070348985eb599c477a3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_28
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 1027
+        width: 92
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca65c90e362d80d43b37098d26de0a88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_29
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 899
+        width: 70
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b6628f8ddd3264caf497f14f5aa4af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_30
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 931
+        width: 69
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57396163e44fdfe4ba5f2641714d8e98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_31
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 803
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562670b0defdae14dad9761d35702d4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_32
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 835
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9946a8ea3281574ca13d26593cf4061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_33
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 835
+        width: 80
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013e56e548fcaad4eba7c88c4c166053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_34
+      rect:
+        serializedVersion: 2
+        x: 2777
+        y: 667
+        width: 272
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4751599976594b241a34b28406cd3647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_35
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 700
+        width: 101
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d867efd109bb04e9bf0b9af4f20f89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_36
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 667
+        width: 543
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bd374e40de1aa408059fca2031c353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Super Castlevania IV - Stage 04 Death Tower_37
+      rect:
+        serializedVersion: 2
+        x: 3076
+        y: 667
+        width: 101
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f0155d02c3fbc4d85c3383651ebd2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a5591f638c3bec54ba0a8bd136d006c4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
