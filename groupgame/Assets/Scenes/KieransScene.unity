@@ -234,13 +234,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333713473}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.544, y: -2.514, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.70203424, w: -0.7121433}
+  m_LocalPosition: {x: -6.3, y: 0.3, z: 0}
   m_LocalScale: {x: 0.19153446, y: 0.19153446, z: 0.19153446}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.18101}
 --- !u!1 &409444233
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,8 +635,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c29bdb29dd7d35a468fd67d38fc8ee84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  State: 0
-  previousState: 0
+  State: 1
+  previousState: 1
   Gems: 0
 --- !u!114 &812466268
 MonoBehaviour:
@@ -1098,6 +1098,16 @@ Prefab:
         type: 2}
       propertyPath: m_SortingOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114815908379202028, guid: ef4f9bd515e8f4045a1a78737666197d,
+        type: 2}
+      propertyPath: State
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114815908379202028, guid: ef4f9bd515e8f4045a1a78737666197d,
+        type: 2}
+      propertyPath: previousState
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ef4f9bd515e8f4045a1a78737666197d, type: 2}
