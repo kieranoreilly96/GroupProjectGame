@@ -14,13 +14,14 @@ public class PlayerData : MonoBehaviour
 {
     public PlayerState State = PlayerState.Idle;
     public PlayerState previousState;
-
+    AudioSource audio;
     public int Gems = 0;
     Vector3 checkpointPosition;
 
     void Start()
     {
         checkpointPosition = transform.position;
+        audio = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,6 +36,13 @@ public class PlayerData : MonoBehaviour
         else if(tag == "Checkpoint")
         {
             checkpointPosition = collision.gameObject.transform.position;
+        }
+        else if(tag=="bossTrigger")
+        {
+            if(!audio.isPlaying)
+            {
+                audio.Play();
+            }
         }
     }
 
