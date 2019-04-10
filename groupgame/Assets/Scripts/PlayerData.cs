@@ -7,7 +7,7 @@ public enum PlayerState
     Idle,//0
     Walking,//1
     Jumping,//2
-    Crouch//3
+    Attack,//3
 }
 
 public class PlayerData : MonoBehaviour
