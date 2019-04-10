@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Jumpable
   - Kill
+  - bossTrigger
+  - Asteroid
+  - Bounce
   layers:
   - Default
   - TransparentFX

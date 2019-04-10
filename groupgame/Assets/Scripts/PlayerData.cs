@@ -7,20 +7,21 @@ public enum PlayerState
     Idle,//0
     Walking,//1
     Jumping,//2
-    Crouch//3
+    Attack,//3
 }
 
 public class PlayerData : MonoBehaviour
 {
     public PlayerState State = PlayerState.Idle;
     public PlayerState previousState;
-
+    AudioSource audio;
     public int Gems = 0;
     Vector3 checkpointPosition;
 
     void Start()
     {
         checkpointPosition = transform.position;
+        audio = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -35,6 +36,13 @@ public class PlayerData : MonoBehaviour
         else if(tag == "Checkpoint")
         {
             checkpointPosition = collision.gameObject.transform.position;
+        }
+        else if(tag=="bossTrigger")
+        {
+            if(!audio.isPlaying)
+            {
+                audio.Play();
+            }
         }
     }
 
