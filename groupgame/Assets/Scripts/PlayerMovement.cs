@@ -8,6 +8,14 @@ public class PlayerMovement : CharacterMovement
     Vector2 customVelocity;
     PlayerData data;
 
+    public GameObject Boss;
+    public float GrappleRange = 10;
+    public float GrappleForce = 10;
+    bool canGrapple = true;
+    bool canMove = true;
+    int frameCount = 0;
+    public int blockForFrames = 20;
+
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
@@ -16,16 +24,43 @@ public class PlayerMovement : CharacterMovement
 
     void Update()
     {
+        if(!canMove)
+        {
+            frameCount++;
+            if (frameCount >= blockForFrames)
+            {
+                canMove = true;
+                frameCount = 0;
+            }
+        }
+
+        if (Input.GetMouseButton(1) && canGrapple)
+        {
+            if (Vector2.Distance(transform.position, Boss.transform.position) <= GrappleRange)
+            {
+                Vector3 direction = (Boss.transform.position - transform.position).normalized;
+                body.AddForce(direction * GrappleForce, ForceMode2D.Impulse);
+
+                canGrapple = false;
+                Invoke("RestoreGrapple", 2);
+                canMove = false;
+            }
+        }
+
+        
         //get input
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
-        //setup customVelocity
-        customVelocity.x = horizontal * movementSpeed;
-        customVelocity.y = body.velocity.y;
+        if (canMove)
+        {
+            //setup customVelocity
+            customVelocity.x = horizontal * movementSpeed;
+            customVelocity.y = body.velocity.y;
 
-        //apply customVelocity
-        body.velocity = customVelocity;
+            //apply customVelocity
+            body.velocity = customVelocity;
+        }
 
         //check for input jump, dash
         if(Input.GetKeyDown(KeyCode.Space) && isOnJumpingSurface)
@@ -34,10 +69,10 @@ public class PlayerMovement : CharacterMovement
             data.State = PlayerState.Jumping;
         }
 
-        if (Input.GetMouseButtonDown(1))
+        if (Input.GetMouseButtonDown(0))
         {
             Dash(horizontal);//player is dashing
-            data.State = PlayerState.Crouch;
+            data.State = PlayerState.Attack;
         }
 
         if(horizontal != 0)
@@ -50,5 +85,10 @@ public class PlayerMovement : CharacterMovement
             //idle state
             data.State = PlayerState.Idle;
         }
+    }
+
+    void RestoreGrapple()
+    {
+        canGrapple = true;
     }
 }
