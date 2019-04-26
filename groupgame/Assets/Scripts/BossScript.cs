@@ -6,8 +6,7 @@ using UnityEngine;
 public enum BossState
 {
     Idle,
-    HandSmash,
-    BodySmash
+    HandSmash
 }
 public class BossScript : MonoBehaviour
 {
@@ -56,5 +55,10 @@ public class BossScript : MonoBehaviour
 
         State = (BossState)currentState;
         Invoke("SwitchState", 5);
+    }
+    public void TakeDamage(int damage)
+    {
+        //health -= damage;
+        Debug.Log("damage TAKEN !");
     }
 }
