@@ -10,6 +10,9 @@ TagManager:
   - Asteroid
   - Bounce
   - Devil
+  - Fists
+  - CheckPoint
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
