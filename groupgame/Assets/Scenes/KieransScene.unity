@@ -2031,7 +2031,7 @@ GameObject:
   - component: {fileID: 1730899757}
   - component: {fileID: 1730899758}
   m_Layer: 0
-  m_Name: devil
+  m_Name: boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

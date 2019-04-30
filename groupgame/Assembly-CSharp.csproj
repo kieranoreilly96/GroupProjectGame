@@ -61,7 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SceneManager.cs" />
+    <Compile Include="Assets\MainMenu\MainMenuController.cs" />
+    <Compile Include="Assets\Pause_Menu\SceneManager.cs" />
     <Compile Include="Assets\Scripts\bgmusic.cs" />
     <Compile Include="Assets\Scripts\BossScript.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
@@ -69,6 +70,8 @@
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\HUDController.cs" />
     <Compile Include="Assets\Scripts\PlayerAnimations.cs" />
     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
