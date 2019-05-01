@@ -17,7 +17,11 @@ public class BossScript : MonoBehaviour
 
     public BossState State = BossState.Idle;
     Animator animator;
-	// Use this for initialization
+    // Use this for initialization
+
+    public Fist[] fists;
+    public bool AreFistsGone = false;
+
 	void Start ()
     {
         body = GetComponent<Rigidbody2D>();
@@ -29,6 +33,22 @@ public class BossScript : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+
+        int deadCounter = 0;
+        for(int i = 0; i < fists.Length;i++)
+        {
+            if(!fists[i].isActiveAndEnabled)
+            {
+                deadCounter++;
+            }
+        }
+
+        if(deadCounter == fists.Length)
+        {
+            AreFistsGone = true;
+            UnityEngine.SceneManagement.SceneManager.LoadScene("The_End");
+        }
+
         body.velocity = direction * speed;
 
         animator.SetInteger("State", (int)State);

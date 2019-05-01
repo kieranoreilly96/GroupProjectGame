@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+
 public class HUDController : MonoBehaviour
 {
 
-    public Slider healthSlider;
+   public Slider healthSlider;
     public Text timeText;
 
     private Health healthComponent;

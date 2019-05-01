@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Kierans_Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main_Menu.unity
+    guid: 39729e495c2a8d2429da01a60758779c
+  - enabled: 1
+    path: Assets/Scenes/The_End.unity
+    guid: f2ceb9f8f8945134cb724ab86555ad71
+  - enabled: 1
+    path: Assets/Scenes/Game_Over.unity
+    guid: dd303fde5c95c6a44b1debe3bfb5448b
   m_configObjects: {}
